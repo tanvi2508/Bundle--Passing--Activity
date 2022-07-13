@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passing Data using Intent"
+        android:textSize="18dp"
+        android:typeface="serif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Enter your name"
+        android:textSize="18dp"
+        android:id="@+id/name"
+        android:typeface="serif"
+        ></EditText>
+
+
+    <EditText
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Enter your email"
+        android:textSize="18dp"
+        android:id="@+id/email"
+        android:typeface="serif"
+        android:layout_marginTop="15dp"
+        ></EditText>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:hint="Enter your mobile number"
+        android:textSize="18dp"
+        android:inputType="phone"
+        android:id="@+id/mobile"
+        android:typeface="serif"
+        android:layout_marginTop="15dp"
+        ></EditText>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_marginTop="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Data"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        ></Button>
+
+
+</LinearLayout>
